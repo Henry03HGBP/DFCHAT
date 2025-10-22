@@ -1,5 +1,5 @@
 {
-  "name": "DFCHAT",
+  "name": "dfchat",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,11 +13,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Henry03HGBP/DFCHAT/issues"
   },
   "homepage": "https://github.com/Henry03HGBP/DFCHAT#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
   }
 }
